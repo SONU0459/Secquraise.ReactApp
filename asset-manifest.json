@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Secquraise.ReactApp/static/css/main.bc216270.css",
+    "main.js": "/Secquraise.ReactApp/static/js/main.90e1a3d9.js",
+    "static/media/seqlogo.png": "/Secquraise.ReactApp/static/media/seqlogo.b8e7cd72ce353895d59b.png",
+    "index.html": "/Secquraise.ReactApp/index.html",
+    "main.bc216270.css.map": "/Secquraise.ReactApp/static/css/main.bc216270.css.map",
+    "main.90e1a3d9.js.map": "/Secquraise.ReactApp/static/js/main.90e1a3d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc216270.css",
+    "static/js/main.90e1a3d9.js"
+  ]
+}
