@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300;400;700;900&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+ }
+
+//  ....Navbar 
+
+.navbar{
+
+    background-color: rgb(10, 10, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px 50px 5px 0;
+}
+
+.logo-div{
+
+    // border: 1px solid rgb(246, 246, 252);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgba(253, 253, 253, 0.896);
+    
+
+    img{
+
+        width: 15%;
+        margin-left: 20px;
+        
+        filter: brightness(150%);
+        
+    }
+}
+
+.number-div{
+
+    // border: 1px solid orange;
+    // width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .male{
+
+        background-color: rgb(69, 214, 100);
+        margin-right: 10px;
+        font-size: 1.5rem;
+        padding: 5px 25px
+
+    }
+    .female{
+
+        background-color: rgb(226, 7, 7);
+        font-size: 1.5rem;
+        padding: 5px 25px;
+        color: white;
+        
+    }
+}
+
+
+// ---------------------------------
+
+.main{
+
+    display: flex;
+    justify-content: space-between;
+     
+    // padding: 0 20px 0 0;
+}
+
+
+.slider{
+
+    
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: fit-content;
+    background-color: rgb(46, 133, 246);
+    color: white;
+    height: 92.9vh;
+    font-size: 2.5rem;
+    
+}
+// ...........Details 
+
+.detail-div{
+
+     
+    // border: 1px solid red;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+   
+    .detail-des{
+
+        // border: 1px solid red;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        >div{
+
+            margin-bottom: 35px;
+        }
+
+         .check-d{
+            display: flex;
+            
+
+             
+         }
+        
+         
+    }
+    
+    .detail-img{
+        // border: 1px solid blue;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 50px;
+
+        img{
+            width: 70%;
+            // height: 50%;
+            margin: 10px 0 0 10px;
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// .............Events/
+
+.event-col{
+
+    background-color: rgb(157, 157, 157);
+    padding: 5px 5px ;
+    width: 25%;
+    min-height: auto;
+
+    .filter-div{
+
+         
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 5px 5px;
+        font-size: 2rem;
+         >h3{
+
+            margin-bottom: 15px;
+            font-size: 1rem;
+         }
+         
+     
+    }
+
+    .content-div{
+
+        background-color: white;
+        padding: 5px;
+        font-size: .95rem;
+        
+       
+    }
+    .content-el{
+        background-color: rgb(175, 175, 175);
+         
+        padding: 5px;
+    }
+    .content-id{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px;
+        
+    }
+
+    .content-detect{
+
+        padding: 2px;
+    }
+}
+
+.content-el:hover{
+
+   background-color: rgb(96, 95, 95);
+    color: white;
+}
+
+
